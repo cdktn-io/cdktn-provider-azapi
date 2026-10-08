@@ -1,22 +1,94 @@
-# cdktn-provider-template
 
-This repository is a [GitHub template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template). Every `cdktn-provider-<name>` repository in the `cdktn-io` organization is generated from it, so that it is born carrying the workflows its first pull request needs in order to merge unattended.
+# CDKTN prebuilt bindings for Azure/azapi provider version 2.13.0
 
-**Do not open pull requests here, and do not edit files on `main` directly.** GitHub Actions are disabled on this repository, so nothing would run on a pull request, and the next sync would silently overwrite any hand edit.
+This repo builds and publishes the [Terraform azapi provider](https://registry.terraform.io/providers/Azure/azapi/2.13.0/docs) bindings for [CDK Terrain](https://cdktn.io).
 
-## Contents
+## Available Packages
 
-- `.github/workflows/pull-request-lint.yml` — provides the required `Validate PR title` status check
-- `.github/workflows/auto-approve.yml` — supplies the required approving review on bot-authored pull requests
-- `.github/workflows/automerge.yml` — merges a pull request once its checks and review are satisfied
-- `README.md` — this file
+### NPM
 
-The three workflow files are synthesized from `@cdktn/provider-project`, exactly as they are in a real provider repository. The `README.md` is hand-authored.
+The npm package is available at [https://www.npmjs.com/package/@cdktn/provider-azapi](https://www.npmjs.com/package/@cdktn/provider-azapi).
 
-## Where the content comes from
+`npm install @cdktn/provider-azapi`
 
-All of it is maintained by [`cdktn-repository-manager`](https://github.com/cdktn-io/cdktn-repository-manager): the `sync-template` job in `.github/workflows/upgrade-repositories.yml` re-synthesizes the workflows and pushes them here whenever the repository fan-out runs. That repository is the source of truth — see [`docs/template-repo.md`](https://github.com/cdktn-io/cdktn-repository-manager/blob/main/docs/template-repo.md) for the full design, and `.github/template-repo/README.md` there for the source of this file.
+### PyPI
 
-## What generated repositories keep
+The PyPI package is available at [https://pypi.org/project/cdktn-provider-azapi](https://pypi.org/project/cdktn-provider-azapi).
 
-A repository generated from this template starts with the files above. Its first pull request — opened by the same fan-out that maintains this repository — replaces this `README.md` with the provider's own generated README and adds the rest of the provider project. The three workflow files are regenerated there from the provider repository's own `@cdktn/provider-project` and `projen` versions, so they never depend on how fresh this template happens to be.
+`pipenv install cdktn-provider-azapi`
+
+### Nuget
+
+The Nuget package is available at [https://www.nuget.org/packages/Io.Cdktn.Providers.Azapi](https://www.nuget.org/packages/Io.Cdktn.Providers.Azapi).
+
+`dotnet add package Io.Cdktn.Providers.Azapi`
+
+### Maven
+
+The Maven package is available at [https://mvnrepository.com/artifact/io.cdktn/cdktn-provider-azapi](https://mvnrepository.com/artifact/io.cdktn/cdktn-provider-azapi).
+
+```
+<dependency>
+    <groupId>io.cdktn</groupId>
+    <artifactId>cdktn-provider-azapi</artifactId>
+    <version>[REPLACE WITH DESIRED VERSION]</version>
+</dependency>
+```
+
+### Go
+
+The go package is generated into the [`github.com/cdktn-io/cdktn-provider-azapi-go`](https://github.com/cdktn-io/cdktn-provider-azapi-go) package.
+
+`go get github.com/cdktn-io/cdktn-provider-azapi-go/azapi/<version>`
+
+Where `<version>` is the version of the prebuilt provider you would like to use e.g. `v11`. The full module name can be found
+within the [go.mod](https://github.com/cdktn-io/cdktn-provider-azapi-go/blob/main/azapi/go.mod#L1) file.
+
+## Docs
+
+Find auto-generated docs for this provider here: 
+
+- [Typescript](./docs/API.typescript.md)
+- [Python](./docs/API.python.md)
+- [Java](./docs/API.java.md)
+- [C#](./docs/API.csharp.md)
+- [Go](./docs/API.go.md)
+
+You can also visit a hosted version of the documentation on [constructs.dev](https://constructs.dev/packages/@cdktn/provider-azapi).
+
+## Versioning
+
+This project is explicitly not tracking the Terraform azapi provider version 1:1. In fact, it always tracks `latest` of `~> 2.11` with every release. If there are scenarios where you explicitly have to pin your provider version, you can do so by [generating the provider constructs manually](https://cdktn.io/docs/concepts/providers#import-providers).
+
+These are the upstream dependencies:
+
+- [CDK Terrain](https://cdktn.io) - Last official release
+- [Terraform azapi provider](https://registry.terraform.io/providers/Azure/azapi/2.13.0)
+- [Terraform Engine](https://terraform.io)
+
+If there are breaking changes (backward incompatible) in any of the above, the major version of this project will be bumped.
+
+## Features / Issues / Bugs
+
+Please report bugs and issues to the [CDK Terrain](https://cdktn.io) project:
+
+- [Create bug report](https://github.com/open-constructs/cdk-terrain/issues)
+- [Create feature request](https://github.com/open-constructs/cdk-terrain/issues)
+
+## Contributing
+
+### Projen
+
+This is mostly based on [Projen](https://projen.io), which takes care of generating the entire repository.
+
+### cdktn-provider-project based on Projen
+
+There's a custom [project builder](https://github.com/cdktn-io/cdktn-provider-project) which encapsulate the common settings for all `cdktn` prebuilt providers.
+
+### Provider Version
+
+The provider version can be adjusted in [./.projenrc.js](./.projenrc.js).
+
+### Repository Management
+
+The repository is managed by [CDKTN Repository Manager](https://github.com/cdktn-io/cdktn-repository-manager/).
