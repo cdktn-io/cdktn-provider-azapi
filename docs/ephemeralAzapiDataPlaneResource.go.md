@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/d
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.ephemeralAzapiDataPlaneResource.EphemeralAzapiDataPlaneResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/ephemeralazapidataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/ephemeralazapidataplaneresource"
 
 ephemeralazapidataplaneresource.NewEphemeralAzapiDataPlaneResource(scope Construct, id *string, config EphemeralAzapiDataPlaneResourceConfig) EphemeralAzapiDataPlaneResource
 ```
@@ -349,7 +349,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-azapi.ephemeralAzapiDataPlaneResource.EphemeralAzapiDataPlaneResource.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/ephemeralazapidataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/ephemeralazapidataplaneresource"
 
 ephemeralazapidataplaneresource.EphemeralAzapiDataPlaneResource_IsConstruct(x interface{}) *bool
 ```
@@ -381,7 +381,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-azapi.ephemeralAzapiDataPlaneResource.EphemeralAzapiDataPlaneResource.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/ephemeralazapidataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/ephemeralazapidataplaneresource"
 
 ephemeralazapidataplaneresource.EphemeralAzapiDataPlaneResource_IsTerraformElement(x interface{}) *bool
 ```
@@ -395,7 +395,7 @@ ephemeralazapidataplaneresource.EphemeralAzapiDataPlaneResource_IsTerraformEleme
 ##### `IsTerraformEphemeralResource` <a name="IsTerraformEphemeralResource" id="@cdktn/provider-azapi.ephemeralAzapiDataPlaneResource.EphemeralAzapiDataPlaneResource.isTerraformEphemeralResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/ephemeralazapidataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/ephemeralazapidataplaneresource"
 
 ephemeralazapidataplaneresource.EphemeralAzapiDataPlaneResource_IsTerraformEphemeralResource(x interface{}) *bool
 ```
@@ -737,7 +737,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-azapi.ephemeralAzapiDataPlaneResource.EphemeralAzapiDataPlaneResourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/ephemeralazapidataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/ephemeralazapidataplaneresource"
 
 &ephemeralazapidataplaneresource.EphemeralAzapiDataPlaneResourceConfig {
 	Count: interface{},
@@ -749,8 +749,8 @@ import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/ephemeralazapidataplan
 	Type: *string,
 	Name: *string,
 	ResponseExportValues: *map[string]interface{},
-	Retry: github.com/cdktn-io/cdktn-provider-azapi-go/azapi.ephemeralAzapiDataPlaneResource.EphemeralAzapiDataPlaneResourceRetry,
-	Timeouts: github.com/cdktn-io/cdktn-provider-azapi-go/azapi.ephemeralAzapiDataPlaneResource.EphemeralAzapiDataPlaneResourceTimeouts,
+	Retry: github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2.ephemeralAzapiDataPlaneResource.EphemeralAzapiDataPlaneResourceRetry,
+	Timeouts: github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2.ephemeralAzapiDataPlaneResource.EphemeralAzapiDataPlaneResourceTimeouts,
 }
 ```
 
@@ -938,7 +938,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure
 #### Initializer <a name="Initializer" id="@cdktn/provider-azapi.ephemeralAzapiDataPlaneResource.EphemeralAzapiDataPlaneResourceRetry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/ephemeralazapidataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/ephemeralazapidataplaneresource"
 
 &ephemeralazapidataplaneresource.EphemeralAzapiDataPlaneResourceRetry {
 	ErrorMessageRegex: *[]*string,
@@ -1040,7 +1040,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure
 #### Initializer <a name="Initializer" id="@cdktn/provider-azapi.ephemeralAzapiDataPlaneResource.EphemeralAzapiDataPlaneResourceTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/ephemeralazapidataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/ephemeralazapidataplaneresource"
 
 &ephemeralazapidataplaneresource.EphemeralAzapiDataPlaneResourceTimeouts {
 	Open: *string,
@@ -1076,7 +1076,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.ephemeralAzapiDataPlaneResource.EphemeralAzapiDataPlaneResourceRetryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/ephemeralazapidataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/ephemeralazapidataplaneresource"
 
 ephemeralazapidataplaneresource.NewEphemeralAzapiDataPlaneResourceRetryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EphemeralAzapiDataPlaneResourceRetryOutputReference
 ```
@@ -1463,7 +1463,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.ephemeralAzapiDataPlaneResource.EphemeralAzapiDataPlaneResourceTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/ephemeralazapidataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/ephemeralazapidataplaneresource"
 
 ephemeralazapidataplaneresource.NewEphemeralAzapiDataPlaneResourceTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EphemeralAzapiDataPlaneResourceTimeoutsOutputReference
 ```

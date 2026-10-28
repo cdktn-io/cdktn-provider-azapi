@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/d
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.updateResource.UpdateResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/updateresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/updateresource"
 
 updateresource.NewUpdateResource(scope Construct, id *string, config UpdateResourceConfig) UpdateResource
 ```
@@ -579,7 +579,7 @@ func ResetUpdateQueryParameters()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-azapi.updateResource.UpdateResource.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/updateresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/updateresource"
 
 updateresource.UpdateResource_IsConstruct(x interface{}) *bool
 ```
@@ -611,7 +611,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-azapi.updateResource.UpdateResource.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/updateresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/updateresource"
 
 updateresource.UpdateResource_IsTerraformElement(x interface{}) *bool
 ```
@@ -625,7 +625,7 @@ updateresource.UpdateResource_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-azapi.updateResource.UpdateResource.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/updateresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/updateresource"
 
 updateresource.UpdateResource_IsTerraformResource(x interface{}) *bool
 ```
@@ -639,7 +639,7 @@ updateresource.UpdateResource_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-azapi.updateResource.UpdateResource.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/updateresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/updateresource"
 
 updateresource.UpdateResource_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1354,7 +1354,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-azapi.updateResource.UpdateResourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/updateresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/updateresource"
 
 &updateresource.UpdateResourceConfig {
 	Connection: interface{},
@@ -1374,15 +1374,15 @@ import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/updateresource"
 	Name: *string,
 	ParentId: *string,
 	ReadHeaders: *map[string]*string,
-	ReadOverride: github.com/cdktn-io/cdktn-provider-azapi-go/azapi.updateResource.UpdateResourceReadOverride,
+	ReadOverride: github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2.updateResource.UpdateResourceReadOverride,
 	ReadQueryParameters: interface{},
 	ReplaceTriggersExternalValues: *map[string]interface{},
 	ResourceId: *string,
 	ResponseExportValues: *map[string]interface{},
-	Retry: github.com/cdktn-io/cdktn-provider-azapi-go/azapi.updateResource.UpdateResourceRetry,
+	Retry: github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2.updateResource.UpdateResourceRetry,
 	SensitiveBody: *map[string]interface{},
 	SensitiveBodyVersion: *map[string]*string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-azapi-go/azapi.updateResource.UpdateResourceTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2.updateResource.UpdateResourceTimeouts,
 	UpdateHeaders: *map[string]*string,
 	UpdateQueryParameters: interface{},
 }
@@ -1869,7 +1869,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure
 #### Initializer <a name="Initializer" id="@cdktn/provider-azapi.updateResource.UpdateResourceReadOverride.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/updateresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/updateresource"
 
 &updateresource.UpdateResourceReadOverride {
 	Action: *string,
@@ -1919,7 +1919,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure
 #### Initializer <a name="Initializer" id="@cdktn/provider-azapi.updateResource.UpdateResourceRetry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/updateresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/updateresource"
 
 &updateresource.UpdateResourceRetry {
 	ErrorMessageRegex: *[]*string,
@@ -2021,7 +2021,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure
 #### Initializer <a name="Initializer" id="@cdktn/provider-azapi.updateResource.UpdateResourceTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/updateresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/updateresource"
 
 &updateresource.UpdateResourceTimeouts {
 	Create: *string,
@@ -2105,7 +2105,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.updateResource.UpdateResourceReadOverrideOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/updateresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/updateresource"
 
 updateresource.NewUpdateResourceReadOverrideOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) UpdateResourceReadOverrideOutputReference
 ```
@@ -2398,7 +2398,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.updateResource.UpdateResourceRetryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/updateresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/updateresource"
 
 updateresource.NewUpdateResourceRetryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) UpdateResourceRetryOutputReference
 ```
@@ -2785,7 +2785,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.updateResource.UpdateResourceTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/updateresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/updateresource"
 
 updateresource.NewUpdateResourceTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) UpdateResourceTimeoutsOutputReference
 ```

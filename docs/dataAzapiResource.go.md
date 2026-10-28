@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/d
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.dataAzapiResource.DataAzapiResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapiresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataazapiresource"
 
 dataazapiresource.NewDataAzapiResource(scope Construct, id *string, config DataAzapiResourceConfig) DataAzapiResource
 ```
@@ -387,7 +387,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-azapi.dataAzapiResource.DataAzapiResource.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapiresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataazapiresource"
 
 dataazapiresource.DataAzapiResource_IsConstruct(x interface{}) *bool
 ```
@@ -419,7 +419,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-azapi.dataAzapiResource.DataAzapiResource.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapiresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataazapiresource"
 
 dataazapiresource.DataAzapiResource_IsTerraformElement(x interface{}) *bool
 ```
@@ -433,7 +433,7 @@ dataazapiresource.DataAzapiResource_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-azapi.dataAzapiResource.DataAzapiResource.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapiresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataazapiresource"
 
 dataazapiresource.DataAzapiResource_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -447,7 +447,7 @@ dataazapiresource.DataAzapiResource_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-azapi.dataAzapiResource.DataAzapiResource.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapiresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataazapiresource"
 
 dataazapiresource.DataAzapiResource_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -940,7 +940,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-azapi.dataAzapiResource.DataAzapiResourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapiresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataazapiresource"
 
 &dataazapiresource.DataAzapiResourceConfig {
 	Connection: interface{},
@@ -958,8 +958,8 @@ import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapiresource"
 	QueryParameters: interface{},
 	ResourceId: *string,
 	ResponseExportValues: *map[string]interface{},
-	Retry: github.com/cdktn-io/cdktn-provider-azapi-go/azapi.dataAzapiResource.DataAzapiResourceRetry,
-	Timeouts: github.com/cdktn-io/cdktn-provider-azapi-go/azapi.dataAzapiResource.DataAzapiResourceTimeouts,
+	Retry: github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2.dataAzapiResource.DataAzapiResourceRetry,
+	Timeouts: github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2.dataAzapiResource.DataAzapiResourceTimeouts,
 }
 ```
 
@@ -1247,7 +1247,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure
 #### Initializer <a name="Initializer" id="@cdktn/provider-azapi.dataAzapiResource.DataAzapiResourceIdentity.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapiresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataazapiresource"
 
 &dataazapiresource.DataAzapiResourceIdentity {
 
@@ -1260,7 +1260,7 @@ import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapiresource"
 #### Initializer <a name="Initializer" id="@cdktn/provider-azapi.dataAzapiResource.DataAzapiResourceRetry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapiresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataazapiresource"
 
 &dataazapiresource.DataAzapiResourceRetry {
 	ErrorMessageRegex: *[]*string,
@@ -1362,7 +1362,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure
 #### Initializer <a name="Initializer" id="@cdktn/provider-azapi.dataAzapiResource.DataAzapiResourceTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapiresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataazapiresource"
 
 &dataazapiresource.DataAzapiResourceTimeouts {
 	Read: *string,
@@ -1398,7 +1398,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.dataAzapiResource.DataAzapiResourceIdentityList.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapiresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataazapiresource"
 
 dataazapiresource.NewDataAzapiResourceIdentityList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAzapiResourceIdentityList
 ```
@@ -1547,7 +1547,7 @@ func Fqn() *string
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.dataAzapiResource.DataAzapiResourceIdentityOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapiresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataazapiresource"
 
 dataazapiresource.NewDataAzapiResourceIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAzapiResourceIdentityOutputReference
 ```
@@ -1858,7 +1858,7 @@ func InternalValue() DataAzapiResourceIdentity
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.dataAzapiResource.DataAzapiResourceRetryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapiresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataazapiresource"
 
 dataazapiresource.NewDataAzapiResourceRetryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAzapiResourceRetryOutputReference
 ```
@@ -2245,7 +2245,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.dataAzapiResource.DataAzapiResourceTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapiresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataazapiresource"
 
 dataazapiresource.NewDataAzapiResourceTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAzapiResourceTimeoutsOutputReference
 ```
