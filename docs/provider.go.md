@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/d
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.provider.AzapiProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/provider"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/provider"
 
 provider.NewAzapiProvider(scope Construct, id *string, config AzapiProviderConfig) AzapiProvider
 ```
@@ -425,7 +425,7 @@ func ResetUseOidc()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-azapi.provider.AzapiProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/provider"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/provider"
 
 provider.AzapiProvider_IsConstruct(x interface{}) *bool
 ```
@@ -457,7 +457,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-azapi.provider.AzapiProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/provider"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/provider"
 
 provider.AzapiProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -471,7 +471,7 @@ provider.AzapiProvider_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformProvider` <a name="IsTerraformProvider" id="@cdktn/provider-azapi.provider.AzapiProvider.isTerraformProvider"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/provider"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/provider"
 
 provider.AzapiProvider_IsTerraformProvider(x interface{}) *bool
 ```
@@ -485,7 +485,7 @@ provider.AzapiProvider_IsTerraformProvider(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-azapi.provider.AzapiProvider.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/provider"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/provider"
 
 provider.AzapiProvider_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -539,7 +539,7 @@ Refer to the {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/d
 | <code><a href="#@cdktn/provider-azapi.provider.AzapiProvider.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktn/provider-azapi.provider.AzapiProvider.property.terraformProviderSource">TerraformProviderSource</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-azapi.provider.AzapiProvider.property.alias">Alias</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-azapi.provider.AzapiProvider.property.functions">Functions</a></code> | <code>github.com/cdktn-io/cdktn-provider-azapi-go/azapi.providerFunctions.AzapiProviderFunctions</code> | Provider-defined functions of the azapi provider. |
+| <code><a href="#@cdktn/provider-azapi.provider.AzapiProvider.property.functions">Functions</a></code> | <code>github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2.providerFunctions.AzapiProviderFunctions</code> | Provider-defined functions of the azapi provider. |
 | <code><a href="#@cdktn/provider-azapi.provider.AzapiProvider.property.aliasInput">AliasInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-azapi.provider.AzapiProvider.property.alwaysAcquirePolicyTokenInput">AlwaysAcquirePolicyTokenInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-azapi.provider.AzapiProvider.property.auxiliaryTenantIdsInput">AuxiliaryTenantIdsInput</a></code> | <code>*[]*string</code> | *No description.* |
@@ -714,7 +714,7 @@ func Alias() *string
 func Functions() AzapiProviderFunctions
 ```
 
-- *Type:* github.com/cdktn-io/cdktn-provider-azapi-go/azapi.providerFunctions.AzapiProviderFunctions
+- *Type:* github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2.providerFunctions.AzapiProviderFunctions
 
 Provider-defined functions of the azapi provider.
 
@@ -1475,7 +1475,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-azapi.provider.AzapiProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/provider"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/provider"
 
 &provider.AzapiProviderConfig {
 	Alias: *string,
@@ -2135,7 +2135,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure
 #### Initializer <a name="Initializer" id="@cdktn/provider-azapi.provider.AzapiProviderEndpoint.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/provider"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/provider"
 
 &provider.AzapiProviderEndpoint {
 	ActiveDirectoryAuthorityHost: *string,

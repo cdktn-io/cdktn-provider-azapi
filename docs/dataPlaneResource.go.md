@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/d
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.dataPlaneResource.DataPlaneResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataplaneresource"
 
 dataplaneresource.NewDataPlaneResource(scope Construct, id *string, config DataPlaneResourceConfig) DataPlaneResource
 ```
@@ -566,7 +566,7 @@ func ResetUpdateQueryParameters()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-azapi.dataPlaneResource.DataPlaneResource.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataplaneresource"
 
 dataplaneresource.DataPlaneResource_IsConstruct(x interface{}) *bool
 ```
@@ -598,7 +598,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-azapi.dataPlaneResource.DataPlaneResource.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataplaneresource"
 
 dataplaneresource.DataPlaneResource_IsTerraformElement(x interface{}) *bool
 ```
@@ -612,7 +612,7 @@ dataplaneresource.DataPlaneResource_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktn/provider-azapi.dataPlaneResource.DataPlaneResource.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataplaneresource"
 
 dataplaneresource.DataPlaneResource_IsTerraformResource(x interface{}) *bool
 ```
@@ -626,7 +626,7 @@ dataplaneresource.DataPlaneResource_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-azapi.dataPlaneResource.DataPlaneResource.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataplaneresource"
 
 dataplaneresource.DataPlaneResource_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1363,7 +1363,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-azapi.dataPlaneResource.DataPlaneResourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataplaneresource"
 
 &dataplaneresource.DataPlaneResourceConfig {
 	Connection: interface{},
@@ -1389,10 +1389,10 @@ import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataplaneresource"
 	ReplaceTriggersExternalValues: *map[string]interface{},
 	ReplaceTriggersRefs: *[]*string,
 	ResponseExportValues: *map[string]interface{},
-	Retry: github.com/cdktn-io/cdktn-provider-azapi-go/azapi.dataPlaneResource.DataPlaneResourceRetry,
+	Retry: github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2.dataPlaneResource.DataPlaneResourceRetry,
 	SensitiveBody: *map[string]interface{},
 	SensitiveBodyVersion: *map[string]*string,
-	Timeouts: github.com/cdktn-io/cdktn-provider-azapi-go/azapi.dataPlaneResource.DataPlaneResourceTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2.dataPlaneResource.DataPlaneResourceTimeouts,
 	UpdateHeaders: *map[string]*string,
 	UpdateQueryParameters: interface{},
 }
@@ -1878,7 +1878,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure
 #### Initializer <a name="Initializer" id="@cdktn/provider-azapi.dataPlaneResource.DataPlaneResourceRetry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataplaneresource"
 
 &dataplaneresource.DataPlaneResourceRetry {
 	ErrorMessageRegex: *[]*string,
@@ -1980,7 +1980,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure
 #### Initializer <a name="Initializer" id="@cdktn/provider-azapi.dataPlaneResource.DataPlaneResourceTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataplaneresource"
 
 &dataplaneresource.DataPlaneResourceTimeouts {
 	Create: *string,
@@ -2064,7 +2064,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.dataPlaneResource.DataPlaneResourceRetryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataplaneresource"
 
 dataplaneresource.NewDataPlaneResourceRetryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataPlaneResourceRetryOutputReference
 ```
@@ -2451,7 +2451,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.dataPlaneResource.DataPlaneResourceTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataplaneresource"
 
 dataplaneresource.NewDataPlaneResourceTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataPlaneResourceTimeoutsOutputReference
 ```

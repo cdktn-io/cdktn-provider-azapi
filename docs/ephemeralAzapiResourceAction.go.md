@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/d
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.ephemeralAzapiResourceAction.EphemeralAzapiResourceAction.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/ephemeralazapiresourceaction"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/ephemeralazapiresourceaction"
 
 ephemeralazapiresourceaction.NewEphemeralAzapiResourceAction(scope Construct, id *string, config EphemeralAzapiResourceActionConfig) EphemeralAzapiResourceAction
 ```
@@ -391,7 +391,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-azapi.ephemeralAzapiResourceAction.EphemeralAzapiResourceAction.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/ephemeralazapiresourceaction"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/ephemeralazapiresourceaction"
 
 ephemeralazapiresourceaction.EphemeralAzapiResourceAction_IsConstruct(x interface{}) *bool
 ```
@@ -423,7 +423,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-azapi.ephemeralAzapiResourceAction.EphemeralAzapiResourceAction.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/ephemeralazapiresourceaction"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/ephemeralazapiresourceaction"
 
 ephemeralazapiresourceaction.EphemeralAzapiResourceAction_IsTerraformElement(x interface{}) *bool
 ```
@@ -437,7 +437,7 @@ ephemeralazapiresourceaction.EphemeralAzapiResourceAction_IsTerraformElement(x i
 ##### `IsTerraformEphemeralResource` <a name="IsTerraformEphemeralResource" id="@cdktn/provider-azapi.ephemeralAzapiResourceAction.EphemeralAzapiResourceAction.isTerraformEphemeralResource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/ephemeralazapiresourceaction"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/ephemeralazapiresourceaction"
 
 ephemeralazapiresourceaction.EphemeralAzapiResourceAction_IsTerraformEphemeralResource(x interface{}) *bool
 ```
@@ -900,7 +900,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-azapi.ephemeralAzapiResourceAction.EphemeralAzapiResourceActionConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/ephemeralazapiresourceaction"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/ephemeralazapiresourceaction"
 
 &ephemeralazapiresourceaction.EphemeralAzapiResourceActionConfig {
 	Count: interface{},
@@ -917,9 +917,9 @@ import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/ephemeralazapiresource
 	Method: *string,
 	QueryParameters: interface{},
 	ResponseExportValues: *map[string]interface{},
-	Retry: github.com/cdktn-io/cdktn-provider-azapi-go/azapi.ephemeralAzapiResourceAction.EphemeralAzapiResourceActionRetry,
+	Retry: github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2.ephemeralAzapiResourceAction.EphemeralAzapiResourceActionRetry,
 	SensitiveBody: *map[string]interface{},
-	Timeouts: github.com/cdktn-io/cdktn-provider-azapi-go/azapi.ephemeralAzapiResourceAction.EphemeralAzapiResourceActionTimeouts,
+	Timeouts: github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2.ephemeralAzapiResourceAction.EphemeralAzapiResourceActionTimeouts,
 }
 ```
 
@@ -1201,7 +1201,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure
 #### Initializer <a name="Initializer" id="@cdktn/provider-azapi.ephemeralAzapiResourceAction.EphemeralAzapiResourceActionRetry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/ephemeralazapiresourceaction"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/ephemeralazapiresourceaction"
 
 &ephemeralazapiresourceaction.EphemeralAzapiResourceActionRetry {
 	ErrorMessageRegex: *[]*string,
@@ -1303,7 +1303,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure
 #### Initializer <a name="Initializer" id="@cdktn/provider-azapi.ephemeralAzapiResourceAction.EphemeralAzapiResourceActionTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/ephemeralazapiresourceaction"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/ephemeralazapiresourceaction"
 
 &ephemeralazapiresourceaction.EphemeralAzapiResourceActionTimeouts {
 	Open: *string,
@@ -1339,7 +1339,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.ephemeralAzapiResourceAction.EphemeralAzapiResourceActionRetryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/ephemeralazapiresourceaction"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/ephemeralazapiresourceaction"
 
 ephemeralazapiresourceaction.NewEphemeralAzapiResourceActionRetryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EphemeralAzapiResourceActionRetryOutputReference
 ```
@@ -1726,7 +1726,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.ephemeralAzapiResourceAction.EphemeralAzapiResourceActionTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/ephemeralazapiresourceaction"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/ephemeralazapiresourceaction"
 
 ephemeralazapiresourceaction.NewEphemeralAzapiResourceActionTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) EphemeralAzapiResourceActionTimeoutsOutputReference
 ```

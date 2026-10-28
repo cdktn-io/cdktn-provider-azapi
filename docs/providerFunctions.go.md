@@ -11,7 +11,7 @@ Provider-defined functions of the azapi provider.
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.providerFunctions.AzapiProviderFunctions.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/providerfunctions"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/providerfunctions"
 
 providerfunctions.NewAzapiProviderFunctions(providerLocalName *string) AzapiProviderFunctions
 ```

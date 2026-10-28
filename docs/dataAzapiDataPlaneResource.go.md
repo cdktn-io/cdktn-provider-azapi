@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/d
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.dataAzapiDataPlaneResource.DataAzapiDataPlaneResource.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapidataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataazapidataplaneresource"
 
 dataazapidataplaneresource.NewDataAzapiDataPlaneResource(scope Construct, id *string, config DataAzapiDataPlaneResourceConfig) DataAzapiDataPlaneResource
 ```
@@ -352,7 +352,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktn/provider-azapi.dataAzapiDataPlaneResource.DataAzapiDataPlaneResource.isConstruct"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapidataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataazapidataplaneresource"
 
 dataazapidataplaneresource.DataAzapiDataPlaneResource_IsConstruct(x interface{}) *bool
 ```
@@ -384,7 +384,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktn/provider-azapi.dataAzapiDataPlaneResource.DataAzapiDataPlaneResource.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapidataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataazapidataplaneresource"
 
 dataazapidataplaneresource.DataAzapiDataPlaneResource_IsTerraformElement(x interface{}) *bool
 ```
@@ -398,7 +398,7 @@ dataazapidataplaneresource.DataAzapiDataPlaneResource_IsTerraformElement(x inter
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktn/provider-azapi.dataAzapiDataPlaneResource.DataAzapiDataPlaneResource.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapidataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataazapidataplaneresource"
 
 dataazapidataplaneresource.DataAzapiDataPlaneResource_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -412,7 +412,7 @@ dataazapidataplaneresource.DataAzapiDataPlaneResource_IsTerraformDataSource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktn/provider-azapi.dataAzapiDataPlaneResource.DataAzapiDataPlaneResource.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapidataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataazapidataplaneresource"
 
 dataazapidataplaneresource.DataAzapiDataPlaneResource_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -784,7 +784,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktn/provider-azapi.dataAzapiDataPlaneResource.DataAzapiDataPlaneResourceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapidataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataazapidataplaneresource"
 
 &dataazapidataplaneresource.DataAzapiDataPlaneResourceConfig {
 	Connection: interface{},
@@ -798,8 +798,8 @@ import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapidataplanereso
 	Type: *string,
 	Name: *string,
 	ResponseExportValues: *map[string]interface{},
-	Retry: github.com/cdktn-io/cdktn-provider-azapi-go/azapi.dataAzapiDataPlaneResource.DataAzapiDataPlaneResourceRetry,
-	Timeouts: github.com/cdktn-io/cdktn-provider-azapi-go/azapi.dataAzapiDataPlaneResource.DataAzapiDataPlaneResourceTimeouts,
+	Retry: github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2.dataAzapiDataPlaneResource.DataAzapiDataPlaneResourceRetry,
+	Timeouts: github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2.dataAzapiDataPlaneResource.DataAzapiDataPlaneResourceTimeouts,
 }
 ```
 
@@ -1009,7 +1009,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure
 #### Initializer <a name="Initializer" id="@cdktn/provider-azapi.dataAzapiDataPlaneResource.DataAzapiDataPlaneResourceRetry.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapidataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataazapidataplaneresource"
 
 &dataazapidataplaneresource.DataAzapiDataPlaneResourceRetry {
 	ErrorMessageRegex: *[]*string,
@@ -1111,7 +1111,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure
 #### Initializer <a name="Initializer" id="@cdktn/provider-azapi.dataAzapiDataPlaneResource.DataAzapiDataPlaneResourceTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapidataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataazapidataplaneresource"
 
 &dataazapidataplaneresource.DataAzapiDataPlaneResourceTimeouts {
 	Read: *string,
@@ -1147,7 +1147,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.dataAzapiDataPlaneResource.DataAzapiDataPlaneResourceRetryOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapidataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataazapidataplaneresource"
 
 dataazapidataplaneresource.NewDataAzapiDataPlaneResourceRetryOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAzapiDataPlaneResourceRetryOutputReference
 ```
@@ -1534,7 +1534,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.dataAzapiDataPlaneResource.DataAzapiDataPlaneResourceTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/dataazapidataplaneresource"
+import "github.com/cdktn-io/cdktn-provider-azapi-go/azapi/v2/dataazapidataplaneresource"
 
 dataazapidataplaneresource.NewDataAzapiDataPlaneResourceTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAzapiDataPlaneResourceTimeoutsOutputReference
 ```
