@@ -4,7 +4,7 @@
 
 ### DataPlaneResource <a name="DataPlaneResource" id="@cdktn/provider-azapi.dataPlaneResource.DataPlaneResource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource azapi_data_plane_resource}.
+Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource azapi_data_plane_resource}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.dataPlaneResource.DataPlaneResource.Initializer"></a>
 
@@ -655,7 +655,7 @@ The construct id used in the generated config for the DataPlaneResource to impor
 
 The id of the existing DataPlaneResource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1516,7 +1516,7 @@ The ID of the azure resource in which this resource is created.
 
 Changing this forces a new resource to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#parent_id DataPlaneResource#parent_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#parent_id DataPlaneResource#parent_id}
 
 ---
 
@@ -1532,7 +1532,7 @@ In a format like `<resource-type>@<api-version>`.
 
 `<resource-type>` is the Azure resource type, for example, `Microsoft.Storage/storageAccounts`. `<api-version>` is version of the API used to manage this azure resource. For a list of supported data plane resource types, see the [Available Resources](https://registry.terraform.io/providers/Azure/azapi/latest/docs/resources/data_plane_resource#available-resources) documentation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#type DataPlaneResource#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#type DataPlaneResource#type}
 
 ---
 
@@ -1546,7 +1546,7 @@ public System.Collections.Generic.IDictionary<string, object> Body { get; set; }
 
 A dynamic attribute that contains the request body.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#body DataPlaneResource#body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#body DataPlaneResource#body}
 
 ---
 
@@ -1560,7 +1560,7 @@ public System.Collections.Generic.IDictionary<string, string> CreateHeaders { ge
 
 A mapping of headers to be sent with the create request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#create_headers DataPlaneResource#create_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#create_headers DataPlaneResource#create_headers}
 
 ---
 
@@ -1574,7 +1574,7 @@ public System.Collections.Generic.IDictionary<string, string[]>|IResolvable Crea
 
 A mapping of query parameters to be sent with the create request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#create_query_parameters DataPlaneResource#create_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#create_query_parameters DataPlaneResource#create_query_parameters}
 
 ---
 
@@ -1588,7 +1588,7 @@ public System.Collections.Generic.IDictionary<string, string> DeleteHeaders { ge
 
 A mapping of headers to be sent with the delete request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#delete_headers DataPlaneResource#delete_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#delete_headers DataPlaneResource#delete_headers}
 
 ---
 
@@ -1602,7 +1602,7 @@ public IResolvable|System.Collections.Generic.IDictionary<string, string[]> Dele
 
 A mapping of query parameters to be sent with the delete request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#delete_query_parameters DataPlaneResource#delete_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#delete_query_parameters DataPlaneResource#delete_query_parameters}
 
 ---
 
@@ -1616,7 +1616,7 @@ public bool|IResolvable IgnoreCasing { get; set; }
 
 A dynamic attribute that contains the request body.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#ignore_casing DataPlaneResource#ignore_casing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#ignore_casing DataPlaneResource#ignore_casing}
 
 ---
 
@@ -1632,7 +1632,7 @@ Whether ignore not returned properties like credentials in `body` to suppress pl
 
 It's recommend to enable this option when some sensitive properties are not returned in response body, instead of setting them in `lifecycle.ignore_changes` because it will make the sensitive fields unable to update.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#ignore_missing_property DataPlaneResource#ignore_missing_property}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#ignore_missing_property DataPlaneResource#ignore_missing_property}
 
 ---
 
@@ -1646,7 +1646,7 @@ public string[] Locks { get; set; }
 
 A list of ARM resource IDs which are used to avoid create/modify/delete azapi resources at the same time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#locks DataPlaneResource#locks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#locks DataPlaneResource#locks}
 
 ---
 
@@ -1660,7 +1660,7 @@ public string Name { get; set; }
 
 Specifies the name (identifier segment) of the data plane resource. Changing this forces a new resource to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#name DataPlaneResource#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#name DataPlaneResource#name}
 
 ---
 
@@ -1674,7 +1674,7 @@ public System.Collections.Generic.IDictionary<string, string> ReadHeaders { get;
 
 A mapping of headers to be sent with the read request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#read_headers DataPlaneResource#read_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#read_headers DataPlaneResource#read_headers}
 
 ---
 
@@ -1688,7 +1688,7 @@ public IResolvable|System.Collections.Generic.IDictionary<string, string[]> Read
 
 A mapping of query parameters to be sent with the read request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#read_query_parameters DataPlaneResource#read_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#read_query_parameters DataPlaneResource#read_query_parameters}
 
 ---
 
@@ -1726,7 +1726,7 @@ resource "azapi_data_plane_resource" "example" {
 }
 ```
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#replace_triggers_external_values DataPlaneResource#replace_triggers_external_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#replace_triggers_external_values DataPlaneResource#replace_triggers_external_values}
 
 ---
 
@@ -1742,7 +1742,7 @@ A list of paths in the current Terraform configuration.
 
 When the values at these paths change, the resource will be replaced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#replace_triggers_refs DataPlaneResource#replace_triggers_refs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#replace_triggers_refs DataPlaneResource#replace_triggers_refs}
 
 ---
 
@@ -1781,7 +1781,7 @@ The attribute can accept either a list or a map.
 
 To learn more about JMESPath, visit [JMESPath](https://jmespath.org/).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#response_export_values DataPlaneResource#response_export_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#response_export_values DataPlaneResource#response_export_values}
 
 ---
 
@@ -1795,7 +1795,7 @@ public DataPlaneResourceRetry Retry { get; set; }
 
 The retry object supports the following attributes:.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#retry DataPlaneResource#retry}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#retry DataPlaneResource#retry}
 
 ---
 
@@ -1811,7 +1811,7 @@ A dynamic attribute that contains the write-only properties of the request body.
 
 This will be merge-patched to the body to construct the actual request body. If a property is defined in both `body` and `sensitive_body`, the `sensitive_body` value takes precedence.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#sensitive_body DataPlaneResource#sensitive_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#sensitive_body DataPlaneResource#sensitive_body}
 
 ---
 
@@ -1827,7 +1827,7 @@ A map where the key is the path to the property in `sensitive_body` and the valu
 
 The key is a string in the format of `path.to.property[index].subproperty`, where `index` is the index of the item in an array. When the version is changed, the property will be included in the request body, otherwise it will be omitted from the request body.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#sensitive_body_version DataPlaneResource#sensitive_body_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#sensitive_body_version DataPlaneResource#sensitive_body_version}
 
 ---
 
@@ -1841,7 +1841,7 @@ public DataPlaneResourceTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#timeouts DataPlaneResource#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#timeouts DataPlaneResource#timeouts}
 
 ---
 
@@ -1855,7 +1855,7 @@ public System.Collections.Generic.IDictionary<string, string> UpdateHeaders { ge
 
 A mapping of headers to be sent with the update request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#update_headers DataPlaneResource#update_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#update_headers DataPlaneResource#update_headers}
 
 ---
 
@@ -1869,7 +1869,7 @@ public IResolvable|System.Collections.Generic.IDictionary<string, string[]> Upda
 
 A mapping of query parameters to be sent with the update request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#update_query_parameters DataPlaneResource#update_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#update_query_parameters DataPlaneResource#update_query_parameters}
 
 ---
 
@@ -1913,7 +1913,7 @@ A list of regular expressions to match against error messages.
 
 If any of the regular expressions match, the request will be retried.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#error_message_regex DataPlaneResource#error_message_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#error_message_regex DataPlaneResource#error_message_regex}
 
 ---
 
@@ -1927,7 +1927,7 @@ public double IntervalSeconds { get; set; }
 
 The base number of seconds to wait between retries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#interval_seconds DataPlaneResource#interval_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#interval_seconds DataPlaneResource#interval_seconds}
 
 ---
 
@@ -1941,7 +1941,7 @@ public double MaxIntervalSeconds { get; set; }
 
 The maximum number of seconds to wait between retries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#max_interval_seconds DataPlaneResource#max_interval_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#max_interval_seconds DataPlaneResource#max_interval_seconds}
 
 ---
 
@@ -1955,7 +1955,7 @@ public double Multiplier { get; set; }
 
 The multiplier to apply to the interval between retries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#multiplier DataPlaneResource#multiplier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#multiplier DataPlaneResource#multiplier}
 
 ---
 
@@ -1971,7 +1971,7 @@ The randomization factor to apply to the interval between retries.
 
 The formula for the randomized interval is: `RetryInterval * (random value in range [1 - RandomizationFactor, 1 + RandomizationFactor])`. Therefore set to zero `0.0` for no randomization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#randomization_factor DataPlaneResource#randomization_factor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#randomization_factor DataPlaneResource#randomization_factor}
 
 ---
 
@@ -2011,7 +2011,7 @@ public string Create { get; set; }
 
 A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#create DataPlaneResource#create}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#create DataPlaneResource#create}
 
 ---
 
@@ -2025,7 +2025,7 @@ public string Delete { get; set; }
 
 A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#delete DataPlaneResource#delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#delete DataPlaneResource#delete}
 
 ---
 
@@ -2039,7 +2039,7 @@ public string Read { get; set; }
 
 A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#read DataPlaneResource#read}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#read DataPlaneResource#read}
 
 ---
 
@@ -2053,7 +2053,7 @@ public string Update { get; set; }
 
 A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#update DataPlaneResource#update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#update DataPlaneResource#update}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### Resource <a name="Resource" id="@cdktn/provider-azapi.resource.Resource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource azapi_resource}.
+Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource azapi_resource}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.resource.Resource.Initializer"></a>
 
@@ -731,7 +731,7 @@ The construct id used in the generated config for the Resource to import.
 
 The id of the existing Resource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1786,7 +1786,7 @@ In a format like `<resource-type>@<api-version>`.
 
 `<resource-type>` is the Azure resource type, for example, `Microsoft.Storage/storageAccounts`. `<api-version>` is version of the API used to manage this azure resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#type Resource#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#type Resource#type}
 
 ---
 
@@ -1800,7 +1800,7 @@ Body *map[string]interface{}
 
 A dynamic attribute that contains the request body.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#body Resource#body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#body Resource#body}
 
 ---
 
@@ -1814,7 +1814,7 @@ CreateHeaders *map[string]*string
 
 A mapping of headers to be sent with the create request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#create_headers Resource#create_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#create_headers Resource#create_headers}
 
 ---
 
@@ -1828,7 +1828,7 @@ CreateQueryParameters interface{}
 
 A mapping of query parameters to be sent with the create request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#create_query_parameters Resource#create_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#create_query_parameters Resource#create_query_parameters}
 
 ---
 
@@ -1842,7 +1842,7 @@ DeleteHeaders *map[string]*string
 
 A mapping of headers to be sent with the delete request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#delete_headers Resource#delete_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#delete_headers Resource#delete_headers}
 
 ---
 
@@ -1856,7 +1856,7 @@ DeleteQueryParameters interface{}
 
 A mapping of query parameters to be sent with the delete request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#delete_query_parameters Resource#delete_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#delete_query_parameters Resource#delete_query_parameters}
 
 ---
 
@@ -1870,7 +1870,7 @@ Identity interface{}
 
 identity block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#identity Resource#identity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#identity Resource#identity}
 
 ---
 
@@ -1886,7 +1886,7 @@ A list of paths in the resource body whose changes should be ignored.
 
 Prefer Terraform's `lifecycle.ignore_changes` when possible. Use this argument only when the paths must be derived from variables or other non-static values. Changes to this argument take effect only after an apply because its value is stored in provider-private state. Paths use dot notation, for example `properties.sku.name`. Individual list items cannot be targeted, ignore the entire list property instead. Configuration changes at an ignored path will not be sent to Azure until that path is removed from this list. This write-only argument requires Terraform 1.11 or later.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#ignore_body_changes Resource#ignore_body_changes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#ignore_body_changes Resource#ignore_body_changes}
 
 ---
 
@@ -1900,7 +1900,7 @@ IgnoreCasing interface{}
 
 Whether ignore the casing of the property names in the response body.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#ignore_casing Resource#ignore_casing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#ignore_casing Resource#ignore_casing}
 
 ---
 
@@ -1916,7 +1916,7 @@ Whether ignore not returned properties like credentials in `body` to suppress pl
 
 It's recommend to enable this option when some sensitive properties are not returned in response body, instead of setting them in `lifecycle.ignore_changes` because it will make the sensitive fields unable to update.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#ignore_missing_property Resource#ignore_missing_property}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#ignore_missing_property Resource#ignore_missing_property}
 
 ---
 
@@ -1932,7 +1932,7 @@ When set to `true`, the provider will ignore properties whose values are `null` 
 
 These properties will not be included in the request body sent to the API, and the difference will not be shown in the plan output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#ignore_null_property Resource#ignore_null_property}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#ignore_null_property Resource#ignore_null_property}
 
 ---
 
@@ -1948,7 +1948,7 @@ A list of list property paths where items not specified in configuration should 
 
 This is intended for partial list management when combined with `list_unique_id_property` (for example, to avoid perpetual drift from server-side ordering).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#ignore_other_items_in_list Resource#ignore_other_items_in_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#ignore_other_items_in_list Resource#ignore_other_items_in_list}
 
 ---
 
@@ -1964,7 +1964,7 @@ A mapping of list property paths to the field name used as a unique identifier w
 
 When not set, list items are matched by a `name` property (if present) or by list ordering. To match using multiple fields, specify a comma-separated list of field names (e.g., `"category, categoryGroup"`).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#list_unique_id_property Resource#list_unique_id_property}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#list_unique_id_property Resource#list_unique_id_property}
 
 ---
 
@@ -1978,7 +1978,7 @@ Location *string
 
 The location of the Azure resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#location Resource#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#location Resource#location}
 
 ---
 
@@ -1992,7 +1992,7 @@ Locks *[]*string
 
 A list of ARM resource IDs which are used to avoid create/modify/delete azapi resources at the same time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#locks Resource#locks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#locks Resource#locks}
 
 ---
 
@@ -2006,7 +2006,7 @@ Name *string
 
 Specifies the name of the azure resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#name Resource#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#name Resource#name}
 
 ---
 
@@ -2032,7 +2032,7 @@ For child level resources, the `parent_id` should be the ID of its parent resour
 
 For type `Microsoft.Resources/resourceGroups`, the `parent_id` could be omitted, it defaults to subscription ID specified in provider or the default subscription (You could check the default subscription by azure cli command: `az account show`).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#parent_id Resource#parent_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#parent_id Resource#parent_id}
 
 ---
 
@@ -2046,7 +2046,7 @@ ReadHeaders *map[string]*string
 
 A mapping of headers to be sent with the read request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#read_headers Resource#read_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#read_headers Resource#read_headers}
 
 ---
 
@@ -2060,7 +2060,7 @@ ReadQueryParameters interface{}
 
 A mapping of query parameters to be sent with the read request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#read_query_parameters Resource#read_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#read_query_parameters Resource#read_query_parameters}
 
 ---
 
@@ -2099,7 +2099,7 @@ resource "azapi_resource" "example" {
 }
 ```
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#replace_triggers_external_values Resource#replace_triggers_external_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#replace_triggers_external_values Resource#replace_triggers_external_values}
 
 ---
 
@@ -2115,7 +2115,7 @@ A list of paths in the current Terraform configuration.
 
 When the values at these paths change, the resource will be replaced.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#replace_triggers_refs Resource#replace_triggers_refs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#replace_triggers_refs Resource#replace_triggers_refs}
 
 ---
 
@@ -2154,7 +2154,7 @@ The attribute can accept either a list or a map.
 
 To learn more about JMESPath, visit [JMESPath](https://jmespath.org/).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#response_export_values Resource#response_export_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#response_export_values Resource#response_export_values}
 
 ---
 
@@ -2168,7 +2168,7 @@ Retry ResourceRetry
 
 The retry object supports the following attributes:.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#retry Resource#retry}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#retry Resource#retry}
 
 ---
 
@@ -2182,7 +2182,7 @@ SchemaValidationEnabled interface{}
 
 Whether enabled the validation on `type` and `body` with embedded schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#schema_validation_enabled Resource#schema_validation_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#schema_validation_enabled Resource#schema_validation_enabled}
 
 ---
 
@@ -2198,7 +2198,7 @@ A dynamic attribute that contains the write-only properties of the request body.
 
 This will be merge-patched to the body to construct the actual request body. If a property is defined in both `body` and `sensitive_body`, the `sensitive_body` value takes precedence.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#sensitive_body Resource#sensitive_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#sensitive_body Resource#sensitive_body}
 
 ---
 
@@ -2214,7 +2214,7 @@ A map where the key is the path to the property in `sensitive_body` and the valu
 
 The key is a string in the format of `path.to.property[index].subproperty`, where `index` is the index of the item in an array. When the version is changed, the property will be included in the request body, otherwise it will be omitted from the request body.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#sensitive_body_version Resource#sensitive_body_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#sensitive_body_version Resource#sensitive_body_version}
 
 ---
 
@@ -2228,7 +2228,7 @@ Tags *map[string]*string
 
 A mapping of tags which should be assigned to the Azure resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#tags Resource#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#tags Resource#tags}
 
 ---
 
@@ -2242,7 +2242,7 @@ Timeouts ResourceTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#timeouts Resource#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#timeouts Resource#timeouts}
 
 ---
 
@@ -2256,7 +2256,7 @@ UpdateHeaders *map[string]*string
 
 A mapping of headers to be sent with the update request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#update_headers Resource#update_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#update_headers Resource#update_headers}
 
 ---
 
@@ -2270,7 +2270,7 @@ UpdateQueryParameters interface{}
 
 A mapping of query parameters to be sent with the update request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#update_query_parameters Resource#update_query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#update_query_parameters Resource#update_query_parameters}
 
 ---
 
@@ -2306,7 +2306,7 @@ Type *string
 
 The Type of Identity which should be used for this azure resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#type Resource#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#type Resource#type}
 
 ---
 
@@ -2320,7 +2320,7 @@ IdentityIds *[]*string
 
 A list of User Managed Identity ID's which should be assigned to the azure resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#identity_ids Resource#identity_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#identity_ids Resource#identity_ids}
 
 ---
 
@@ -2364,7 +2364,7 @@ A list of regular expressions to match against error messages.
 
 If any of the regular expressions match, the request will be retried.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#error_message_regex Resource#error_message_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#error_message_regex Resource#error_message_regex}
 
 ---
 
@@ -2378,7 +2378,7 @@ IntervalSeconds *f64
 
 The base number of seconds to wait between retries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#interval_seconds Resource#interval_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#interval_seconds Resource#interval_seconds}
 
 ---
 
@@ -2392,7 +2392,7 @@ MaxIntervalSeconds *f64
 
 The maximum number of seconds to wait between retries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#max_interval_seconds Resource#max_interval_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#max_interval_seconds Resource#max_interval_seconds}
 
 ---
 
@@ -2406,7 +2406,7 @@ Multiplier *f64
 
 The multiplier to apply to the interval between retries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#multiplier Resource#multiplier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#multiplier Resource#multiplier}
 
 ---
 
@@ -2422,7 +2422,7 @@ The randomization factor to apply to the interval between retries.
 
 The formula for the randomized interval is: `RetryInterval * (random value in range [1 - RandomizationFactor, 1 + RandomizationFactor])`. Therefore set to zero `0.0` for no randomization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#randomization_factor Resource#randomization_factor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#randomization_factor Resource#randomization_factor}
 
 ---
 
@@ -2462,7 +2462,7 @@ Create *string
 
 A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#create Resource#create}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#create Resource#create}
 
 ---
 
@@ -2476,7 +2476,7 @@ Delete *string
 
 A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#delete Resource#delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#delete Resource#delete}
 
 ---
 
@@ -2490,7 +2490,7 @@ Read *string
 
 A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#read Resource#read}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#read Resource#read}
 
 ---
 
@@ -2504,7 +2504,7 @@ Update *string
 
 A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource#update Resource#update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource#update Resource#update}
 
 ---
 

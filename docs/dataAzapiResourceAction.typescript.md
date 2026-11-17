@@ -4,7 +4,7 @@
 
 ### DataAzapiResourceAction <a name="DataAzapiResourceAction" id="@cdktn/provider-azapi.dataAzapiResourceAction.DataAzapiResourceAction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_action azapi_resource_action}.
+Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_action azapi_resource_action}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.dataAzapiResourceAction.DataAzapiResourceAction.Initializer"></a>
 
@@ -483,7 +483,7 @@ The construct id used in the generated config for the DataAzapiResourceAction to
 
 The id of the existing DataAzapiResourceAction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_action#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_action#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1048,7 +1048,7 @@ In a format like `<resource-type>@<api-version>`.
 
 `<resource-type>` is the Azure resource type, for example, `Microsoft.Storage/storageAccounts`. `<api-version>` is version of the API used to manage this azure resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_action#type DataAzapiResourceAction#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_action#type DataAzapiResourceAction#type}
 
 ---
 
@@ -1064,7 +1064,7 @@ The name of the resource action.
 
 It's also possible to make HTTP requests towards the resource ID if leave this field empty.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_action#action DataAzapiResourceAction#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_action#action DataAzapiResourceAction#action}
 
 ---
 
@@ -1078,7 +1078,7 @@ public readonly body: {[ key: string ]: any};
 
 The body attribute is a dynamic attribute that only allows users to specify the resource body as an HCL object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_action#body DataAzapiResourceAction#body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_action#body DataAzapiResourceAction#body}
 
 ---
 
@@ -1092,7 +1092,7 @@ public readonly headers: {[ key: string ]: string};
 
 A map of headers to include in the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_action#headers DataAzapiResourceAction#headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_action#headers DataAzapiResourceAction#headers}
 
 ---
 
@@ -1106,7 +1106,7 @@ public readonly method: string;
 
 The HTTP method to use when performing the action. Defaults to `POST`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_action#method DataAzapiResourceAction#method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_action#method DataAzapiResourceAction#method}
 
 ---
 
@@ -1120,7 +1120,7 @@ public readonly queryParameters: IResolvable | {[ key: string ]: string[]};
 
 A map of query parameters to include in the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_action#query_parameters DataAzapiResourceAction#query_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_action#query_parameters DataAzapiResourceAction#query_parameters}
 
 ---
 
@@ -1134,7 +1134,7 @@ public readonly resourceId: string;
 
 The ID of the Azure resource to perform the action on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_action#resource_id DataAzapiResourceAction#resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_action#resource_id DataAzapiResourceAction#resource_id}
 
 ---
 
@@ -1175,7 +1175,7 @@ The attribute can accept either a list or a map.
 To learn more about JMESPath, visit [JMESPath](https://jmespath.org/).
 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_action#response_export_values DataAzapiResourceAction#response_export_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_action#response_export_values DataAzapiResourceAction#response_export_values}
 
 ---
 
@@ -1189,7 +1189,7 @@ public readonly retry: DataAzapiResourceActionRetry;
 
 The retry object supports the following attributes:.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_action#retry DataAzapiResourceAction#retry}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_action#retry DataAzapiResourceAction#retry}
 
 ---
 
@@ -1230,7 +1230,7 @@ The attribute can accept either a list or a map.
 To learn more about JMESPath, visit [JMESPath](https://jmespath.org/).
 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_action#sensitive_response_export_values DataAzapiResourceAction#sensitive_response_export_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_action#sensitive_response_export_values DataAzapiResourceAction#sensitive_response_export_values}
 
 ---
 
@@ -1244,7 +1244,7 @@ public readonly timeouts: DataAzapiResourceActionTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_action#timeouts DataAzapiResourceAction#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_action#timeouts DataAzapiResourceAction#timeouts}
 
 ---
 
@@ -1282,7 +1282,7 @@ A list of regular expressions to match against error messages.
 
 If any of the regular expressions match, the request will be retried.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_action#error_message_regex DataAzapiResourceAction#error_message_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_action#error_message_regex DataAzapiResourceAction#error_message_regex}
 
 ---
 
@@ -1296,7 +1296,7 @@ public readonly intervalSeconds: number;
 
 The base number of seconds to wait between retries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_action#interval_seconds DataAzapiResourceAction#interval_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_action#interval_seconds DataAzapiResourceAction#interval_seconds}
 
 ---
 
@@ -1310,7 +1310,7 @@ public readonly maxIntervalSeconds: number;
 
 The maximum number of seconds to wait between retries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_action#max_interval_seconds DataAzapiResourceAction#max_interval_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_action#max_interval_seconds DataAzapiResourceAction#max_interval_seconds}
 
 ---
 
@@ -1324,7 +1324,7 @@ public readonly multiplier: number;
 
 The multiplier to apply to the interval between retries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_action#multiplier DataAzapiResourceAction#multiplier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_action#multiplier DataAzapiResourceAction#multiplier}
 
 ---
 
@@ -1340,7 +1340,7 @@ The randomization factor to apply to the interval between retries.
 
 The formula for the randomized interval is: `RetryInterval * (random value in range [1 - RandomizationFactor, 1 + RandomizationFactor])`. Therefore set to zero `0.0` for no randomization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_action#randomization_factor DataAzapiResourceAction#randomization_factor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_action#randomization_factor DataAzapiResourceAction#randomization_factor}
 
 ---
 
@@ -1372,7 +1372,7 @@ public readonly read: string;
 
 A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_action#read DataAzapiResourceAction#read}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_action#read DataAzapiResourceAction#read}
 
 ---
 

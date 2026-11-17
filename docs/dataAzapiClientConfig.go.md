@@ -4,7 +4,7 @@
 
 ### DataAzapiClientConfig <a name="DataAzapiClientConfig" id="@cdktn/provider-azapi.dataAzapiClientConfig.DataAzapiClientConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/client_config azapi_client_config}.
+Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/client_config azapi_client_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-azapi.dataAzapiClientConfig.DataAzapiClientConfig.Initializer"></a>
 
@@ -407,7 +407,7 @@ The construct id used in the generated config for the DataAzapiClientConfig to i
 
 The id of the existing DataAzapiClientConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/client_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/client_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -771,7 +771,7 @@ Timeouts DataAzapiClientConfigTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/client_config#timeouts DataAzapiClientConfig#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/client_config#timeouts DataAzapiClientConfig#timeouts}
 
 ---
 
@@ -805,7 +805,7 @@ Read *string
 
 A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/client_config#read DataAzapiClientConfig#read}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/client_config#read DataAzapiClientConfig#read}
 
 ---
 
