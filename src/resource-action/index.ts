@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action
+// https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,49 +15,49 @@ export interface ResourceActionConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the resource action. It's also possible to make HTTP requests towards the resource ID if leave this field empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#action ResourceAction#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#action ResourceAction#action}
   */
   readonly action?: string;
   /**
   * A dynamic attribute that contains the request body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#body ResourceAction#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#body ResourceAction#body}
   */
   readonly body?: { [key: string]: any };
   /**
   * A map of headers to include in the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#headers ResourceAction#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#headers ResourceAction#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * If set to `true`, the resource action will ignore `Not Found` errors returned from the Azure API. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#ignore_not_found ResourceAction#ignore_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#ignore_not_found ResourceAction#ignore_not_found}
   */
   readonly ignoreNotFound?: boolean | cdktn.IResolvable;
   /**
   * A list of ARM resource IDs which are used to avoid create/modify/delete azapi resources at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#locks ResourceAction#locks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#locks ResourceAction#locks}
   */
   readonly locks?: string[];
   /**
   * Specifies the HTTP method of the azure resource action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#method ResourceAction#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#method ResourceAction#method}
   */
   readonly method?: string;
   /**
   * A map of query parameters to include in the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#query_parameters ResourceAction#query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#query_parameters ResourceAction#query_parameters}
   */
   readonly queryParameters?: { [key: string]: string[] } | cdktn.IResolvable;
   /**
   * The ID of an existing Azure source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#resource_id ResourceAction#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#resource_id ResourceAction#resource_id}
   */
   readonly resourceId: string;
   /**
@@ -90,25 +90,25 @@ export interface ResourceActionConfig extends cdktn.TerraformMetaArguments {
   * To learn more about JMESPath, visit [JMESPath](https://jmespath.org/).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#response_export_values ResourceAction#response_export_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#response_export_values ResourceAction#response_export_values}
   */
   readonly responseExportValues?: { [key: string]: any };
   /**
   * The retry object supports the following attributes:
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#retry ResourceAction#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#retry ResourceAction#retry}
   */
   readonly retry?: ResourceActionRetry;
   /**
   * A dynamic attribute that contains the write-only properties of the request body. This will be merge-patched to the body to construct the actual request body. If a property is defined in both `body` and `sensitive_body`, the `sensitive_body` value takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#sensitive_body ResourceAction#sensitive_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#sensitive_body ResourceAction#sensitive_body}
   */
   readonly sensitiveBody?: { [key: string]: any };
   /**
   * A map where the key is the path to the property in `sensitive_body` and the value is the version of the property. The key is a string in the format of `path.to.property[index].subproperty`, where `index` is the index of the item in an array. When the version is changed, the property will be included in the request body, otherwise it will be omitted from the request body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#sensitive_body_version ResourceAction#sensitive_body_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#sensitive_body_version ResourceAction#sensitive_body_version}
   */
   readonly sensitiveBodyVersion?: { [key: string]: string };
   /**
@@ -141,25 +141,25 @@ export interface ResourceActionConfig extends cdktn.TerraformMetaArguments {
   * To learn more about JMESPath, visit [JMESPath](https://jmespath.org/).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#sensitive_response_export_values ResourceAction#sensitive_response_export_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#sensitive_response_export_values ResourceAction#sensitive_response_export_values}
   */
   readonly sensitiveResponseExportValues?: { [key: string]: any };
   /**
   * In a format like `<resource-type>@<api-version>`. `<resource-type>` is the Azure resource type, for example, `Microsoft.Storage/storageAccounts`. `<api-version>` is version of the API used to manage this azure resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#type ResourceAction#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#type ResourceAction#type}
   */
   readonly type: string;
   /**
   * When to perform the action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#when ResourceAction#when}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#when ResourceAction#when}
   */
   readonly when?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#timeouts ResourceAction#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#timeouts ResourceAction#timeouts}
   */
   readonly timeouts?: ResourceActionTimeouts;
 }
@@ -167,31 +167,31 @@ export interface ResourceActionRetry {
   /**
   * A list of regular expressions to match against error messages. If any of the regular expressions match, the request will be retried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#error_message_regex ResourceAction#error_message_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#error_message_regex ResourceAction#error_message_regex}
   */
   readonly errorMessageRegex: string[];
   /**
   * The base number of seconds to wait between retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#interval_seconds ResourceAction#interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#interval_seconds ResourceAction#interval_seconds}
   */
   readonly intervalSeconds?: number;
   /**
   * The maximum number of seconds to wait between retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#max_interval_seconds ResourceAction#max_interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#max_interval_seconds ResourceAction#max_interval_seconds}
   */
   readonly maxIntervalSeconds?: number;
   /**
   * The multiplier to apply to the interval between retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#multiplier ResourceAction#multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#multiplier ResourceAction#multiplier}
   */
   readonly multiplier?: number;
   /**
   * The randomization factor to apply to the interval between retries. The formula for the randomized interval is: `RetryInterval * (random value in range [1 - RandomizationFactor, 1 + RandomizationFactor])`. Therefore set to zero `0.0` for no randomization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#randomization_factor ResourceAction#randomization_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#randomization_factor ResourceAction#randomization_factor}
   */
   readonly randomizationFactor?: number;
 }
@@ -400,25 +400,25 @@ export interface ResourceActionTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#create ResourceAction#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#create ResourceAction#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#delete ResourceAction#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#delete ResourceAction#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#read ResourceAction#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#read ResourceAction#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#update ResourceAction#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#update ResourceAction#update}
   */
   readonly update?: string;
 }
@@ -599,7 +599,7 @@ export class ResourceActionTimeoutsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action azapi_resource_action}
+* Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action azapi_resource_action}
 */
 export class ResourceAction extends cdktn.TerraformResource {
 
@@ -615,7 +615,7 @@ export class ResourceAction extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ResourceAction resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceAction to import
-  * @param importFromId The id of the existing ResourceAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceAction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -627,7 +627,7 @@ export class ResourceAction extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/resource_action azapi_resource_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/resource_action azapi_resource_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -638,7 +638,7 @@ export class ResourceAction extends cdktn.TerraformResource {
       terraformResourceType: 'azapi_resource_action',
       terraformGeneratorMetadata: {
         providerName: 'azapi',
-        providerVersion: '2.13.0',
+        providerVersion: '2.14.0',
         providerVersionConstraint: '~> 2.11'
       },
       provider: config.provider,

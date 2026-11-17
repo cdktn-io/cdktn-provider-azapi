@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_id
+// https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_id
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAzapiResourceIdConfig extends cdktn.TerraformMetaArguments 
   /**
   * The name of the Azure resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_id#name DataAzapiResourceId#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_id#name DataAzapiResourceId#name}
   */
   readonly name?: string;
   /**
@@ -31,25 +31,25 @@ export interface DataAzapiResourceIdConfig extends cdktn.TerraformMetaArguments 
   * 
   * For type `Microsoft.Resources/resourceGroups`, the `parent_id` could be omitted, it defaults to subscription ID specified in provider or the default subscription (You could check the default subscription by azure cli command: `az account show`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_id#parent_id DataAzapiResourceId#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_id#parent_id DataAzapiResourceId#parent_id}
   */
   readonly parentId?: string;
   /**
   * The ID of an existing Azure source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_id#resource_id DataAzapiResourceId#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_id#resource_id DataAzapiResourceId#resource_id}
   */
   readonly resourceId?: string;
   /**
   * In a format like `<resource-type>@<api-version>`. `<resource-type>` is the Azure resource type, for example, `Microsoft.Storage/storageAccounts`. `<api-version>` is version of the API used to manage this azure resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_id#type DataAzapiResourceId#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_id#type DataAzapiResourceId#type}
   */
   readonly type: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_id#timeouts DataAzapiResourceId#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_id#timeouts DataAzapiResourceId#timeouts}
   */
   readonly timeouts?: DataAzapiResourceIdTimeouts;
 }
@@ -57,7 +57,7 @@ export interface DataAzapiResourceIdTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_id#read DataAzapiResourceId#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_id#read DataAzapiResourceId#read}
   */
   readonly read?: string;
 }
@@ -151,7 +151,7 @@ export class DataAzapiResourceIdTimeoutsOutputReference extends cdktn.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_id azapi_resource_id}
+* Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_id azapi_resource_id}
 */
 export class DataAzapiResourceId extends cdktn.TerraformDataSource {
 
@@ -167,7 +167,7 @@ export class DataAzapiResourceId extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAzapiResourceId resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAzapiResourceId to import
-  * @param importFromId The id of the existing DataAzapiResourceId that should be imported. Refer to the {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_id#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAzapiResourceId that should be imported. Refer to the {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_id#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAzapiResourceId to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -179,7 +179,7 @@ export class DataAzapiResourceId extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/resource_id azapi_resource_id} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/resource_id azapi_resource_id} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -190,7 +190,7 @@ export class DataAzapiResourceId extends cdktn.TerraformDataSource {
       terraformResourceType: 'azapi_resource_id',
       terraformGeneratorMetadata: {
         providerName: 'azapi',
-        providerVersion: '2.13.0',
+        providerVersion: '2.14.0',
         providerVersionConstraint: '~> 2.11'
       },
       provider: config.provider,

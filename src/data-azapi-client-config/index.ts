@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/client_config
+// https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/client_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAzapiClientConfigConfig extends cdktn.TerraformMetaArgument
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/client_config#timeouts DataAzapiClientConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/client_config#timeouts DataAzapiClientConfig#timeouts}
   */
   readonly timeouts?: DataAzapiClientConfigTimeouts;
 }
@@ -23,7 +23,7 @@ export interface DataAzapiClientConfigTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/client_config#read DataAzapiClientConfig#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/client_config#read DataAzapiClientConfig#read}
   */
   readonly read?: string;
 }
@@ -117,7 +117,7 @@ export class DataAzapiClientConfigTimeoutsOutputReference extends cdktn.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/client_config azapi_client_config}
+* Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/client_config azapi_client_config}
 */
 export class DataAzapiClientConfig extends cdktn.TerraformDataSource {
 
@@ -133,7 +133,7 @@ export class DataAzapiClientConfig extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAzapiClientConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAzapiClientConfig to import
-  * @param importFromId The id of the existing DataAzapiClientConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/client_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAzapiClientConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/client_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAzapiClientConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -145,7 +145,7 @@ export class DataAzapiClientConfig extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/client_config azapi_client_config} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/client_config azapi_client_config} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -156,7 +156,7 @@ export class DataAzapiClientConfig extends cdktn.TerraformDataSource {
       terraformResourceType: 'azapi_client_config',
       terraformGeneratorMetadata: {
         providerName: 'azapi',
-        providerVersion: '2.13.0',
+        providerVersion: '2.14.0',
         providerVersionConstraint: '~> 2.11'
       },
       provider: config.provider,

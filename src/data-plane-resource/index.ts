@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource
+// https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,73 +15,73 @@ export interface DataPlaneResourceConfig extends cdktn.TerraformMetaArguments {
   /**
   * A dynamic attribute that contains the request body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#body DataPlaneResource#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#body DataPlaneResource#body}
   */
   readonly body?: { [key: string]: any };
   /**
   * A mapping of headers to be sent with the create request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#create_headers DataPlaneResource#create_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#create_headers DataPlaneResource#create_headers}
   */
   readonly createHeaders?: { [key: string]: string };
   /**
   * A mapping of query parameters to be sent with the create request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#create_query_parameters DataPlaneResource#create_query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#create_query_parameters DataPlaneResource#create_query_parameters}
   */
   readonly createQueryParameters?: { [key: string]: string[] } | cdktn.IResolvable;
   /**
   * A mapping of headers to be sent with the delete request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#delete_headers DataPlaneResource#delete_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#delete_headers DataPlaneResource#delete_headers}
   */
   readonly deleteHeaders?: { [key: string]: string };
   /**
   * A mapping of query parameters to be sent with the delete request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#delete_query_parameters DataPlaneResource#delete_query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#delete_query_parameters DataPlaneResource#delete_query_parameters}
   */
   readonly deleteQueryParameters?: { [key: string]: string[] } | cdktn.IResolvable;
   /**
   * A dynamic attribute that contains the request body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#ignore_casing DataPlaneResource#ignore_casing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#ignore_casing DataPlaneResource#ignore_casing}
   */
   readonly ignoreCasing?: boolean | cdktn.IResolvable;
   /**
   * Whether ignore not returned properties like credentials in `body` to suppress plan-diff. It's recommend to enable this option when some sensitive properties are not returned in response body, instead of setting them in `lifecycle.ignore_changes` because it will make the sensitive fields unable to update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#ignore_missing_property DataPlaneResource#ignore_missing_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#ignore_missing_property DataPlaneResource#ignore_missing_property}
   */
   readonly ignoreMissingProperty?: boolean | cdktn.IResolvable;
   /**
   * A list of ARM resource IDs which are used to avoid create/modify/delete azapi resources at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#locks DataPlaneResource#locks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#locks DataPlaneResource#locks}
   */
   readonly locks?: string[];
   /**
   * Specifies the name (identifier segment) of the data plane resource. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#name DataPlaneResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#name DataPlaneResource#name}
   */
   readonly name?: string;
   /**
   * The ID of the azure resource in which this resource is created. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#parent_id DataPlaneResource#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#parent_id DataPlaneResource#parent_id}
   */
   readonly parentId: string;
   /**
   * A mapping of headers to be sent with the read request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#read_headers DataPlaneResource#read_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#read_headers DataPlaneResource#read_headers}
   */
   readonly readHeaders?: { [key: string]: string };
   /**
   * A mapping of query parameters to be sent with the read request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#read_query_parameters DataPlaneResource#read_query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#read_query_parameters DataPlaneResource#read_query_parameters}
   */
   readonly readQueryParameters?: { [key: string]: string[] } | cdktn.IResolvable;
   /**
@@ -110,13 +110,13 @@ export interface DataPlaneResourceConfig extends cdktn.TerraformMetaArguments {
   * ```
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#replace_triggers_external_values DataPlaneResource#replace_triggers_external_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#replace_triggers_external_values DataPlaneResource#replace_triggers_external_values}
   */
   readonly replaceTriggersExternalValues?: { [key: string]: any };
   /**
   * A list of paths in the current Terraform configuration. When the values at these paths change, the resource will be replaced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#replace_triggers_refs DataPlaneResource#replace_triggers_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#replace_triggers_refs DataPlaneResource#replace_triggers_refs}
   */
   readonly replaceTriggersRefs?: string[];
   /**
@@ -149,49 +149,49 @@ export interface DataPlaneResourceConfig extends cdktn.TerraformMetaArguments {
   * To learn more about JMESPath, visit [JMESPath](https://jmespath.org/).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#response_export_values DataPlaneResource#response_export_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#response_export_values DataPlaneResource#response_export_values}
   */
   readonly responseExportValues?: { [key: string]: any };
   /**
   * The retry object supports the following attributes:
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#retry DataPlaneResource#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#retry DataPlaneResource#retry}
   */
   readonly retry?: DataPlaneResourceRetry;
   /**
   * A dynamic attribute that contains the write-only properties of the request body. This will be merge-patched to the body to construct the actual request body. If a property is defined in both `body` and `sensitive_body`, the `sensitive_body` value takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#sensitive_body DataPlaneResource#sensitive_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#sensitive_body DataPlaneResource#sensitive_body}
   */
   readonly sensitiveBody?: { [key: string]: any };
   /**
   * A map where the key is the path to the property in `sensitive_body` and the value is the version of the property. The key is a string in the format of `path.to.property[index].subproperty`, where `index` is the index of the item in an array. When the version is changed, the property will be included in the request body, otherwise it will be omitted from the request body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#sensitive_body_version DataPlaneResource#sensitive_body_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#sensitive_body_version DataPlaneResource#sensitive_body_version}
   */
   readonly sensitiveBodyVersion?: { [key: string]: string };
   /**
   * In a format like `<resource-type>@<api-version>`. `<resource-type>` is the Azure resource type, for example, `Microsoft.Storage/storageAccounts`. `<api-version>` is version of the API used to manage this azure resource. For a list of supported data plane resource types, see the [Available Resources](https://registry.terraform.io/providers/Azure/azapi/latest/docs/resources/data_plane_resource#available-resources) documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#type DataPlaneResource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#type DataPlaneResource#type}
   */
   readonly type: string;
   /**
   * A mapping of headers to be sent with the update request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#update_headers DataPlaneResource#update_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#update_headers DataPlaneResource#update_headers}
   */
   readonly updateHeaders?: { [key: string]: string };
   /**
   * A mapping of query parameters to be sent with the update request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#update_query_parameters DataPlaneResource#update_query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#update_query_parameters DataPlaneResource#update_query_parameters}
   */
   readonly updateQueryParameters?: { [key: string]: string[] } | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#timeouts DataPlaneResource#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#timeouts DataPlaneResource#timeouts}
   */
   readonly timeouts?: DataPlaneResourceTimeouts;
 }
@@ -199,31 +199,31 @@ export interface DataPlaneResourceRetry {
   /**
   * A list of regular expressions to match against error messages. If any of the regular expressions match, the request will be retried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#error_message_regex DataPlaneResource#error_message_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#error_message_regex DataPlaneResource#error_message_regex}
   */
   readonly errorMessageRegex: string[];
   /**
   * The base number of seconds to wait between retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#interval_seconds DataPlaneResource#interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#interval_seconds DataPlaneResource#interval_seconds}
   */
   readonly intervalSeconds?: number;
   /**
   * The maximum number of seconds to wait between retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#max_interval_seconds DataPlaneResource#max_interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#max_interval_seconds DataPlaneResource#max_interval_seconds}
   */
   readonly maxIntervalSeconds?: number;
   /**
   * The multiplier to apply to the interval between retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#multiplier DataPlaneResource#multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#multiplier DataPlaneResource#multiplier}
   */
   readonly multiplier?: number;
   /**
   * The randomization factor to apply to the interval between retries. The formula for the randomized interval is: `RetryInterval * (random value in range [1 - RandomizationFactor, 1 + RandomizationFactor])`. Therefore set to zero `0.0` for no randomization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#randomization_factor DataPlaneResource#randomization_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#randomization_factor DataPlaneResource#randomization_factor}
   */
   readonly randomizationFactor?: number;
 }
@@ -432,25 +432,25 @@ export interface DataPlaneResourceTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#create DataPlaneResource#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#create DataPlaneResource#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#delete DataPlaneResource#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#delete DataPlaneResource#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#read DataPlaneResource#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#read DataPlaneResource#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#update DataPlaneResource#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#update DataPlaneResource#update}
   */
   readonly update?: string;
 }
@@ -631,7 +631,7 @@ export class DataPlaneResourceTimeoutsOutputReference extends cdktn.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource azapi_data_plane_resource}
+* Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource azapi_data_plane_resource}
 */
 export class DataPlaneResource extends cdktn.TerraformResource {
 
@@ -647,7 +647,7 @@ export class DataPlaneResource extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DataPlaneResource resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPlaneResource to import
-  * @param importFromId The id of the existing DataPlaneResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPlaneResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPlaneResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -659,7 +659,7 @@ export class DataPlaneResource extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/data_plane_resource azapi_data_plane_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/resources/data_plane_resource azapi_data_plane_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -670,7 +670,7 @@ export class DataPlaneResource extends cdktn.TerraformResource {
       terraformResourceType: 'azapi_data_plane_resource',
       terraformGeneratorMetadata: {
         providerName: 'azapi',
-        providerVersion: '2.13.0',
+        providerVersion: '2.14.0',
         providerVersionConstraint: '~> 2.11'
       },
       provider: config.provider,
